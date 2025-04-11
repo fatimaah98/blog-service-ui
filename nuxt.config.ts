@@ -10,5 +10,8 @@ export default defineNuxtConfig({
         dir: "rtl"
       }
     }
-  }
+  },
+  devServer: {
+    port: 4000
+  },
 })
